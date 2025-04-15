@@ -32,9 +32,9 @@
                 <nav class="hidden md:block">
                     <ul class="flex space-x-6">
                         <li><a href="#home" class="hover:text-gray-300 transition duration-300">Home</a></li>
-                        <li><a href="#schedule" class="hover:text-gray-300 transition duration-300">Schedule</a></li>
+                        <li><a href="#schedule" class="hover:text-gray-300 transition duration-300">Agenda</a></li>
                         <li><a href="#faq" class="hover:text-gray-300 transition duration-300">FAQ</a></li>
-                        <li><a href="#judging" class="hover:text-gray-300 transition duration-300">Judging</a></li>
+                        <li><a href="#catalysts" class="hover:text-gray-300 transition duration-300">Catalysts</a></li>
                     </ul>
                 </nav>
                 <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" target="_blank">Register Now</a>
@@ -70,7 +70,7 @@
 
     <main class="container mx-auto px-4 py-8" id="main-content">
         <!-- Hero Section -->
-        <section class="mb-16">
+        <section id="home" class="mb-16">
             <div class="bg-gray-800 rounded-lg shadow-md p-6">
             <h1 class="text-xl font-semibold text-white mb-2 text-center md:text-left">
                 Collaborate and innovate for 2 days, and unleash AI's potential for education!
@@ -177,43 +177,81 @@
             </div>
         </section>
         
-        <!-- Speakers -->
-        <section id="speakers" class="mb-16">
-            <h2 class="text-3xl font-bold text-white mb-4 text-center md:text-left">Our Speakers</h2>
-            <p class="text-gray-300 leading-relaxed mb-4 text-center md:text-left">
-                We have an exciting lineup of speakers who are leaders in their respective fields.
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 flex flex-col items-center">
-                    <img src="https://placehold.co/150x150/EEE/31343C" alt="Speaker 1" class="rounded-full mb-4">
-                    <h3 class="text-xl font-semibold text-white mb-2 text-center">John Doe</h3>
-                    <p class="text-gray-400 text-center">Tech Lead, Company A</p>
-                    <p class="text-gray-300 text-sm text-center mt-2">
-                        John is a seasoned tech lead with over 10 years of experience in developing innovative software
-                        solutions. He will be sharing his insights on building scalable and maintainable systems.
-                    </p>
-                </div>
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 flex flex-col items-center">
-                    <img src="https://placehold.co/150x150/EEE/31343C" alt="Speaker 2" class="rounded-full mb-4">
-                    <h3 class="text-xl font-semibold text-white mb-2 text-center">Jane Smith</h3>
-                    <p class="text-gray-400 text-center">CEO, Startup B</p>
-                    <p class="text-gray-300 text-sm text-center mt-2">
-                        Jane is the CEO of a successful startup that is revolutionizing the way people connect. She will
-                        be talking about her journey as an entrepreneur and how to build a successful tech company.
-                    </p>
-                </div>
-                <div class="bg-gray-800 rounded-lg shadow-md p-6 flex flex-col items-center">
-                    <img src="https://placehold.co/150x150/EEE/31343C" alt="Speaker 3" class="rounded-full mb-4">
-                    <h3 class="text-xl font-semibold text-white mb-2 text-center">Alex Johnson</h3>
-                    <p class="text-gray-400 text-center">Founder, Innovation C</p>
-                    <p class="text-gray-300 text-sm text-center mt-2">
-                        Alex is the founder of a non-profit organization that is dedicated to promoting innovation in
-                        education. He will be discussing the importance of technology in shaping the future of learning.
-                    </p>
-                </div>
+        <!-- FAQ -->
+        <section id="faq" class="mb-16">
+            <div class="bg-gray-800 rounded-lg shadow-md p-6">
+              <h2 class="text-xl font-semibold text-white mb-6 text-center md:text-left">Frequently Asked Questions (FAQ)</h2>
+              <div class="space-y-4">
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">What is a hackathon?</summary>
+                  <p class="mt-2">A hackathon is an event, typically lasting a few days, where people like programmers, designers, and other professionals collaborate intensively to solve problems or create new projects. These events, a blend of "hack" and "marathon," foster rapid innovation and teamwork, often resulting in working prototypes or solutions presented to judges.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">What is an AI hackathon?</summary>
+                  <p class="mt-2">An AI hackathon is an intensive, collaborative event where programmers, data scientists, and AI enthusiasts gather to develop innovative AI-powered solutions within a set timeframe.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">Is registration to FuturEd AI free?</summary>
+                  <p class="mt-2">Yes, registration to FuturEd AI is completely free. Participation is limited to selected teams.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">Who can participate in FuturEd AI?</summary>
+                  <p class="mt-2">Anyone with an interest in technology, problem-solving, and collaboration can participate, as long as they form a team of 2 to 3 people.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">What should I bring to the FuturEd AI?</summary>
+                  <p class="mt-2">Bring your laptop, charger, any preferred peripherals, and your teammates. Most importantly, bring an open mind and a collaborative spirit!</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">Do I need to have prior experience?</summary>
+                  <p class="mt-2">Not at all! FuturEd AI is open to all skill levels. You'll find mentors and teammates ready to support you throughout the event.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">Can I bring a pre-existing project?</summary>
+                  <p class="mt-2">No. All projects must be started from scratch during the event to ensure fairness and creativity.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">What is the selection process?</summary>
+                  <p class="mt-2">Applicants submit their skills and ideas. A committee will select the most promising teams based on creativity, technical skills, and relevance to the theme.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">What is the judging rubric?</summary>
+                  <p class="mt-2">Please refer to the “Judging Procedure” section for complete details.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">Will there be mentors?</summary>
+                  <p class="mt-2">Yes! Experienced mentors will guide you during the event, answer questions, and help shape your ideas.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">How can I stay updated?</summary>
+                  <p class="mt-2">Follow our official website and social media channels for all announcements and updates.</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">How do I collect my prize?</summary>
+                  <p class="mt-2">Prizes are distributed via gift cards to a tech store of your choice, sent by email. Prize sharing within the team is up to you!</p>
+                </details>
+          
+                <details class="bg-gray-700 rounded p-4 text-gray-300">
+                  <summary class="cursor-pointer font-semibold text-white">When will the prizes be given?</summary>
+                  <p class="mt-2">Winners will receive their gift cards no later than October 31, 2025.</p>
+                </details>
+              </div>
             </div>
-        </section>
+          </section>
+          
 
+        <!-- Contact -->
         <section id="contact" class="mb-16">
             <h2 class="text-3xl font-bold text-white mb-4 text-center md:text-left">Contact Us</h2>
             <p class="text-gray-300 leading-relaxed mb-4">
