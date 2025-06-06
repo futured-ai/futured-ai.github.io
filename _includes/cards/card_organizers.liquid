@@ -1,5 +1,10 @@
 <div class="card">
   <h1 class="pffbold">{{ include.title }}</h1>
+  {% if include.subtitle %}
+    <div class="card container">
+      <p class="pfflight">{{ include.subtitle }}</p>
+    </div>
+  {% endif %}
   <section class="double-card">
     <div class="card-left">
       <div class="university-info">

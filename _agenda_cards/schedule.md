@@ -25,7 +25,7 @@ schedule:
         title: Pitch workshop
         size: '1'
       - time: 19:00 - 20:00
-        title: Pitch workshop
+        title: Dinner
         size: '1'
 
   - date: Friday, 3 October 2025
@@ -50,6 +50,6 @@ schedule:
         title: Awards ceremony and closing remarks
         size: '1'
       - time: 19:00 - 20:00
-        title: Reception
+        title: Dinner and drinks
         size: '1'
 ---

@@ -1,6 +1,6 @@
 ---
-title: Why Apply
-subtitle: The event is co-organized by Epignosis and the Computer Science Department of the University of Crete.
+title: Judging procedure
+subtitle: Our panel of judges will evaluate each submission based on four key pillars that determine the total score each submission.
 type: whyapply
 order: 3
 items:

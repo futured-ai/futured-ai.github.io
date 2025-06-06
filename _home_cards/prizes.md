@@ -1,6 +1,5 @@
 ---
 title: Prizes
-subtitle: The event is co-organized by Epignosis and the Computer Science Department of the University of Crete.
 type: prizes
 order: 6
 prizes:

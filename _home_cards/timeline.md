@@ -1,6 +1,6 @@
 ---
 title: Timeline
-subtitle: Develop innovative, AI-driven solutions that revolutionize education by creating personalized, accessible, and engaging learning experiences.
+subtitle: Mark these key dates in your calendar as we journey from ideation to celebration in our upcoming hackathon.
 type: timeline
 order: 4
 timeline:
