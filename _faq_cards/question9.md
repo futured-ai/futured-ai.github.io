@@ -3,5 +3,5 @@ type: faq
 order: 9
 title: What is the judging rubric?
 answer: >
-  Please see “Judging procedure”.
+  Please see see <a href="/catalysts/#section_card1">Judging procedure</a> section.
 ---

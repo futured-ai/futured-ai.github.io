@@ -1,6 +1,6 @@
 ---
 title: Judges
-subtitle: We're excited to introduce the first members of our judging panel below, and we'll be adding distinguished academic voices to complete this expert group in the coming weeks.
+subtitle: We're excited to introduce the first members of our judging panel below and we'll be adding distinguished academic voices to complete this expert group in the coming weeks.
 type: catalysts
 order: 2
 people:
