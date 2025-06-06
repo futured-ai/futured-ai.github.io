@@ -5,7 +5,7 @@ type: timeline
 order: 4
 timeline:
   - title: Call for Participation
-    date: 9 Jun 2025
+    date: 10 Jun 2025
     description: Join us and transform the future of education.
   - title: Applications Deadline
     date: 19 Sep 2025
