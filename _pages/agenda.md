@@ -23,17 +23,6 @@ nav_order: 2
           title=card.title
           text=card.text
           sec_text=card.sec_text %}
-      {% when "organizers" %}
-        {% include cards/card_organizers.liquid
-          title=card.title
-          subtitle=card.subtitle
-          organizers=card.organizers %}
-      {% when "keyvalue" %}
-        {% include cards/card_keyvalue.liquid
-          title=card.title
-          subtitle=card.subtitle
-          keyvalue_type=card.keyvalue_type
-          items=card.items %}
       {% when "schedule" %}
         {% include cards/card_schedule.liquid
           title=card.title
