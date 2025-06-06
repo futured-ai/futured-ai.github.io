@@ -60,13 +60,13 @@ ninja.data = [{
           description: "",
           section: "Catalysts_cards",handler: () => {
               window.location.href = "/catalysts_cards/scoring/";
-            },},{id: "catalysts_cards-futured-ai",
-          title: 'FuturEd AI',
+            },},{id: "catalysts_cards-catalysts",
+          title: 'Catalysts',
           description: "",
           section: "Catalysts_cards",handler: () => {
               window.location.href = "/catalysts_cards/top/";
-            },},{id: "catalysts_cards-why-apply",
-          title: 'Why Apply',
+            },},{id: "catalysts_cards-judging-procedure",
+          title: 'Judging procedure',
           description: "",
           section: "Catalysts_cards",handler: () => {
               window.location.href = "/catalysts_cards/why_apply/";
