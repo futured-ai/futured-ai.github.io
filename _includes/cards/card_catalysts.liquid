@@ -1,6 +1,9 @@
 <div class="card judges-section">
   <h1 class="pffbold">{{ include.title }}</h1>
   <div class="judges-grid">
+    {% if include.subtitle %}
+      <p class="pfflight">{{ include.subtitle }}</p>
+    {% endif %}
     {% for person in include.people %}
     <div class="judge-card card">
       <div class="judge-header">
