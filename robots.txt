@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://futured-ai.github.io/sitemap.xml
+Sitemap: https://hackathon.csd.uoc.gr/sitemap.xml
