@@ -408,11 +408,6 @@ ninja.data = [{
           description: "",
           section: "Agenda_cards",handler: () => {
               window.location.href = "/agenda_cards/where_when/";
-            },},{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
             },},{id: "catalysts_cards-judges",
           title: 'Judges',
           description: "",
