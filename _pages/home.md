@@ -41,14 +41,13 @@ subtitle: Team up with mentors and industry leaders to transform your AI-powered
         {% include cards/card_prizes.liquid
             title=card.title
             subtitle=card.subtitle
-            prizes=card.prizes 
-            buttons=card.buttons %}
+            prizes=card.prizes %}
       {% else %}
         <div class="card">Unknown card type: {{ card.type }}</div>
     {% endcase %}
   {% endfor %}
   <div class="page-buttons">
-    <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Register</a>
+    <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a>
     <a href="https://forms.gle/hJ5BtdgpaFLxFvap6" class="btn secondary">Contact Us</a>
   </div>
 </section>

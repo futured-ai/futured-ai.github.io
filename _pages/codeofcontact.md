@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Code of Contact
-permalink: /codeofcontact/
+title: Code of Conduct
+permalink: /code/
 ---
 
 <div class="container">

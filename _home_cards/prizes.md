@@ -9,9 +9,4 @@ prizes:
     label: 1st place
   - amount: 500
     label: 3rd place
-buttons:
-  - label: Register
-    link: /register
-  - label: Contact us
-    link: /contact
 ---
