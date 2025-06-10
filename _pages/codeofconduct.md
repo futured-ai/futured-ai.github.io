@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Code of Conduct
+title: Κώδικας Δεοντολογίας Συμμετεχόντων
 permalink: /code/
 ---
 

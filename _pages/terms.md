@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Terms
+title: Όροι και Προϋποθέσεις Συμμετοχής
 permalink: /terms/
 ---
 

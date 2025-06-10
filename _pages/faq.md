@@ -1,6 +1,6 @@
 ---
 layout: home
-title: FAQ
+title: Frequently Asked Questions
 permalink: /faq/
 nav: true
 nav_order: 3

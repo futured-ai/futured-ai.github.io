@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Privacy
+title: Δήλωση Ιδιωτικότητας
 permalink: /privacy/
 ---
 
