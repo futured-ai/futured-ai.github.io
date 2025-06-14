@@ -6,7 +6,7 @@ order: 3
 items:
   - icon: /assets/img/icons/gear-code-duotone-thin 1.svg
     title: Functionality & Execution
-    text: <ul><li>The solution must run</li><li>It must perform the claimed functionality</li><li>Should be stable during demonstration</li><li>Collaboration of team members</li></ul>
+    text: <ul><li>The solution must run</li><li>It must perform the claimed functionality</li><li>Should be stable during demonstration</li><li>Effective handling of challenges</li></ul>
   - icon: /assets/img/icons/microchip-duotone-thin 1.svg
     title: Technical Innovation
     text: <ul><li>Novelty of the approach or application</li><li>Complexity of the AI techniques utilized</li><li>Handling of technical challenges</li><li>Technical creativity</li></ul>
