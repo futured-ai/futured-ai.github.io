@@ -1,7 +1,7 @@
 ---
 title: Why Apply
 type: whyapply
-order: 6
+order: 7
 items:
   - icon: /assets/img/icons/brain-circuit-duotone-thin.svg
     title: Develop Practical AI Skills

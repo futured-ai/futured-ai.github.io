@@ -1,7 +1,7 @@
 ---
 title: Prizes
 type: prizes
-order: 4
+order: 5
 prizes:
   - amount: 2000
     label: 2nd place

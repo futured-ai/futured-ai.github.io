@@ -10,6 +10,6 @@ sec_text: |
     <li>Decide on the idea that you want to work on</li>
     <li>Registrations close at 19 Sep 2025 (end of day)</li>
   </ul>
-type: basic
-order: 2
+type: how_to_apply
+order: 3
 ---

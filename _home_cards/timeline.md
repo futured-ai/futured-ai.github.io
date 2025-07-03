@@ -2,7 +2,7 @@
 title: Timeline
 subtitle: Mark these key dates in your calendar as we journey from ideation to celebration in our upcoming hackathon.
 type: timeline
-order: 5
+order: 6
 timeline:
   - title: Call for Participation
     date: 10 Jun 2025
