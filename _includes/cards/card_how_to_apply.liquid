@@ -4,9 +4,9 @@
   <p>{{ include.sec_text }}</p>
 
   {% for feature in include.items %}
-    <div style="display: flex; align-items: center;">
+    <div style="display: flex; align-items: center; justify-content: center; width: 100%;">
       <img src="{{ feature.icon | relative_url }}" alt="{{ feature.text }}" style="height: 32px;">
-      <span>{{ feature.text }}</span>
+      <span style="line-height: 55px; padding-left: 20px;">{{ feature.text }}</span>
     </div>
   {% endfor %}
 
