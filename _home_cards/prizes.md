@@ -3,10 +3,10 @@ title: Prizes
 type: prizes
 order: 6
 prizes:
-  - amount: 1000
+  - amount: 2000
     label: 2nd place
-  - amount: 1500
+  - amount: 3000
     label: 1st place
-  - amount: 500
+  - amount: 1000
     label: 3rd place
 ---
