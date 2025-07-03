@@ -42,6 +42,11 @@ subtitle: Team up with mentors and industry leaders to transform your AI-powered
             title=card.title
             subtitle=card.subtitle
             prizes=card.prizes %}
+      {% when "how_to_apply" %}
+        {% include cards/card_how_to_apply.liquid
+            title=card.title
+            text=card.text
+            sec_text=card.sec_text %}
       {% else %}
         <div class="card">Unknown card type: {{ card.type }}</div>
     {% endcase %}
