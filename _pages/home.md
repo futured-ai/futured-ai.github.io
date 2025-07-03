@@ -46,6 +46,7 @@ subtitle: Team up with mentors and industry leaders to transform your AI-powered
         {% include cards/card_how_to_apply.liquid
             title=card.title
             text=card.text
+            items=card.items
             sec_text=card.sec_text %}
       {% else %}
         <div class="card">Unknown card type: {{ card.type }}</div>
