@@ -145,6 +145,11 @@ ninja.data = [{
           description: "",
           section: "Home_cards",handler: () => {
               window.location.href = "/home_cards/challenge/";
+            },},{id: "home_cards-how-to-apply",
+          title: 'How to Apply',
+          description: "",
+          section: "Home_cards",handler: () => {
+              window.location.href = "/home_cards/how_to_apply/";
             },},{id: "home_cards-organizers",
           title: 'Organizers',
           description: "",
