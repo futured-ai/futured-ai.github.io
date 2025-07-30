@@ -4,6 +4,11 @@ subtitle: We're excited to introduce the first members of our judging panel belo
 type: catalysts
 order: 2
 people:
+  - name: Dimitris Tsingos
+    title: Co-founder and President of Epignosis
+    image: /assets/img/images/tsingos.png
+    bio: >
+      He is Co-founder and President of Epignosis, a global eLearning technology company, and Yodeck, a leading provider of cloud-based digital signage solutions. He also is the Co-founder and CEO at Starttech Ventures, a pioneering private investment and entrepreneurial organization championing the venture building model. Dimitris is known for his commitment to capital efficiency, lean startup principles, and cultivating founder-driven, product-led companies. Together with his colleagues from Starttech Ventures, they have launched the Practical AI Community in Greece. A former President of YES for Europe – the European Confederation of Young Entrepreneurs, he is also the founder of Together for Europe, a civic initiative promoting European federal integration. Most recently, he launched a foundation to support education, research, and cooperativism. Beyond tech, entrepreneurship and civic engagement, Dimitris' family co-owns an organic winery in Distomo, Boeotia, reviving the region’s viticultural heritage. He is passionate about building high-impact organizations that blend innovation with purpose.
   - name: Manos Dramitinos
     title: Chief Technology & Innovation Officer
     image: /assets/img/images/manos.png
