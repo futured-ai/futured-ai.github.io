@@ -4,6 +4,11 @@ subtitle: We're excited to introduce the first members of our judging panel belo
 type: catalysts
 order: 2
 people:
+  - name: Yannis Tzitzikas
+    title: Professor of Information Systems
+    image: /assets/img/images/tzitzikas.png
+    bio: >
+      Yannis Tzitzikas is Professor of Information Systems in the Computer Science Department at University of Crete (Greece) and Affiliated Researcher of the Information Systems Laboratory at FORTH-ICS (Greece). He studied at the University of Crete and he conducted post-doctoral research at (a) the University of Namur (Belgium), (b) ISTI-CNR (Pisa, Italy) and (c) VTT Technical Research Centre of Finland. His expertise lies in Information Systems, specifically in Knowledge Management and Information Retrieval. His research focuses on semantic data integration, exploratory search, and digital preservation. He has coauthored 3 books and more than 180 papers in refereed journals and conferences (including ACM Computing Surveys, ACM Transactions on the Web, VLDB Journal, ACM Transactions on Information Systems, IEEE Transactions on Knowledge and Data Engineering, JIIS, JDAPD, ECIR, ISWC, EWSC), he has received four best paper awards (at CIA'2003, ISWC'07, MTSR'20 and ISWC'22) as well as other awards). He has supervised three PhDs, 26 MSc theses and more than 50 Diploma Theses. He actively participates το EU projects (totaling more than 1,5 MEuros funding for FORTH-ICS) and participates to the scientific committees of several international conferences and journals. Since 2005 he coordinates the Semantic Access and Retrieval group, and from 2019 also the Centre for Cultural Informatics of the Information Systems Laboratory of FORTH-ICS. He is the coordinator of the Clarity and Open Data Management Team of the University of Crete and he is member of the Executive Committee ERCIM (the European Research Consortium for Informatics and Mathematics).
   - name: Dimitris Tsingos
     title: Co-founder and President of Epignosis
     image: /assets/img/images/tsingos.png
