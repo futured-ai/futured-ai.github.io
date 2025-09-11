@@ -95,6 +95,11 @@ ninja.data = [{
           description: "",
           section: "Faq_cards",handler: () => {
               window.location.href = "/faq_cards/question13/";
+            },},{id: "faq_cards-still-have-questions",
+          title: 'Still have questions?',
+          description: "",
+          section: "Faq_cards",handler: () => {
+              window.location.href = "/faq_cards/question14/";
             },},{id: "faq_cards-what-is-an-ai-hackathon",
           title: 'What is an AI hackathon?',
           description: "",
