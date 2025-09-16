@@ -14,6 +14,11 @@ people:
     image: /assets/img/images/pratikakis.png
     bio: >
       Polyvios Pratikakis is an Associate Professor at the Computer Science Department of the University of Crete, and Collaborating Researcher at ICS-FORTH. His research interests include programming languages, type systems, dynamic and static analysis, parallelism and concurrency, parallel and distributed runtime systems, memory management, and data analytics.
+  - name: Asterios Leonidis
+    title: Assistant Professor
+    image: /assets/img/images/leonidis.png
+    bio: >
+      Asterios Leonidis is an Assistant Professor at the University of Crete and Affiliated Faculty at FORTH-ICS. His research lies in Human-Computer Interaction (HCI), focusing on areas such as Extended Reality (XR), Human-Centered AI, Ambient Intelligence, IoT, and smart cities. He has extensive experience in designing and evaluating interactive technologies for domains including education, accessibility, and cultural heritage, with a strong emphasis on usability, natural interaction, and the societal impact of emerging technologies.
   - name: Dimitris Tsingos
     title: Co-founder and President of Epignosis
     image: /assets/img/images/tsingos.png
