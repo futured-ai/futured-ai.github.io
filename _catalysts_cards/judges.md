@@ -1,6 +1,5 @@
 ---
 title: Judges
-subtitle: We're excited to introduce the first members of our judging panel below and we'll be adding distinguished academic voices to complete this expert group in the coming weeks.
 type: catalysts
 order: 2
 people:
@@ -19,6 +18,11 @@ people:
     image: /assets/img/images/leonidis.png
     bio: >
       Asterios Leonidis is an Assistant Professor at the University of Crete and Affiliated Faculty at FORTH-ICS. His research lies in Human-Computer Interaction (HCI), focusing on areas such as Extended Reality (XR), Human-Centered AI, Ambient Intelligence, IoT, and smart cities. He has extensive experience in designing and evaluating interactive technologies for domains including education, accessibility, and cultural heritage, with a strong emphasis on usability, natural interaction, and the societal impact of emerging technologies.
+  - name: Xenofontas Dimitropoulos
+    title: Professor
+    image: /assets/img/images/dimitropoulos.png
+    bio: >
+      Xenofontas Dimitropoulos is a Professor in the Department of Computer Science at the University of Crete. He earned his PhD from the Georgia Institute of Technology in 2006, where his research, a collaborative effort with the Center for Internet Data Analysis (CAIDA) at the University of California San Diego (UCSD), led to the creation of the CAIDA: 1) Autonomous Systems (AS) Rank, 2) AS Relationship Dataset, and 3) AS taxonomy. These contributions have since seen widespread use in academia and industry. Following his PhD, he was a Post-Doctoral researcher at IBM Research Zurich Laboratory until 2008, after which he became a Lecturer at ETH Zurich. In 2014, he joined the University of Crete as an Assistant Professor and concurrently became an Affiliated Researcher at the Foundation for Research and Technology - Hellas (FORTH). At FORTH, he established and led the Internet Security Privacy and Intelligence Research (INSPIRE) group. Prof. Dimitropoulos's research is centered on applied Internet data analysis, with a particular focus on routing measurements. In 2021, he received a Best Paper Award from ACM SIGCOMM, the flagship inter-networking conference of ACM. He has been the Principal Investigator for three European Research Council (ERC) grants. In 2021, Prof. Dimitropoulos co-founded Code BGP with two members of his research group. This spin-off from FORTH developed an SaaS platform that provided real-time monitoring of the Border Gateway Protocol (BGP) from hundreds of global sources. Code BGP secured a pre-seed investment from Marathon VC. He served as CEO of Code BGP until its acquisition by Cisco in 2023. The BGP monitoring capabilities of Code BGP have since been integrated into Cisco ThousandEyes, and Cisco has established offices on the campus of FORTH in Heraklion, Greece. Currently, Prof. Dimitropoulos acts as a Scientific Advisor to Cisco ThousandEyes, advising on topics related to BGP monitoring.
   - name: Dimitris Tsingos
     title: Co-founder and President of Epignosis
     image: /assets/img/images/tsingos.png
