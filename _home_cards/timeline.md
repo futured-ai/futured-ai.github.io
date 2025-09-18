@@ -8,10 +8,10 @@ timeline:
     date: 10 Jun 2025
     description: Join us and transform the future of education.
   - title: Applications Deadline
-    date: 19 Sep 2025
+    date: 24 Sep 2025
     description: Time's up -- let's hope you made it!
   - title: Evaluation of Applications
-    date: 22 Sep 2025
+    date: 25 Sep 2025
     description: Our panel will review all submissions and select the most promising ideas.
   - title: Finalists Announcement
     date: 26 Sep 2025
