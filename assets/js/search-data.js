@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/catalysts/";
           },
-        },{id: "agenda_cards-fututed-ai",
-          title: 'FututEd AI',
+        },{id: "agenda_cards-futured-ai",
+          title: 'FuturEd AI',
           description: "",
           section: "Agenda_cards",handler: () => {
               window.location.href = "/agenda_cards/promo/";
