@@ -7,16 +7,16 @@
       </div>
     {% endif %}
     {% for person in include.people %}
-    <div class="judge-card card">
-      <div class="judge-header">
-        <img class="judge-photo" src="{{ person.image }}" alt="{{ person.name }}">
-        <div class="judge-info">
-          <h3 class="judge-name">{{ person.name }}</h3>
-          <p class="judge-title">{{ person.title }}</p>
+      <div class="judge-card card">
+        <div class="judge-header">
+          <img class="judge-photo" src="{{ person.image }}" alt="{{ person.name }}">
+          <div class="judge-info">
+            <h3 class="judge-name">{{ person.name }}</h3>
+            <p class="judge-title">{{ person.title }}</p>
+          </div>
         </div>
+        <p class="judge-bio">{{ person.bio }}</p>
       </div>
-      <p class="judge-bio">{{ person.bio }}</p>
-    </div>
     {% endfor %}
   </div>
 </div>

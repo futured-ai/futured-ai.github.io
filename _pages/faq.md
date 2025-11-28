@@ -5,10 +5,11 @@ permalink: /faq/
 nav: true
 nav_order: 3
 ---
+
 <div class="container card">
   <h1>FAQ</h1>
 
-  {% assign faqs = site.faq_cards | sort: "order" %}
+{% assign faqs = site.faq_cards | sort: "order" %}
 
   <div class="faq-list">
     {% for faq in faqs %}
