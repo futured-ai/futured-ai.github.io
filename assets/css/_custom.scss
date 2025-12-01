@@ -821,9 +821,10 @@ body {
 
 .badge-column {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* center each badge horizontally */
-  gap: 16px; /* space between each badge */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
   margin: 2rem 0;
 }
 
