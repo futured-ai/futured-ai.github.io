@@ -33,7 +33,7 @@ nav_order: 2
     {% endcase %}
   {% endfor %}
   <div class="page-buttons">
-      <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a>
-      <a href="https://forms.gle/hJ5BtdgpaFLxFvap6" class="btn secondary">Contact Us</a>
+      <!-- <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a> -->
+      <a href="https://forms.gle/hJ5BtdgpaFLxFvap6" class="btn primary">Contact Us</a>
   </div>
 </section>

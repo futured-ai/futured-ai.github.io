@@ -1,0 +1,17 @@
+<div class="press-mentions-card card">
+  <h1 class="pffbold">{{ include.title }}</h1>
+  <div class="mentions-grid">
+    {% for mention in include.mentions %}
+      <div class="mention-item">
+        <h3 class="pffbold mention-name">{{ mention.name }}</h3>
+        <p class="pffbook mention-description">{{ mention.description }}</p>
+        <div class="mention-footer">
+          <a href="{{ mention.link }}" target="_blank" class="see-more-link pffbold"> See more </a>
+          <a href="{{ mention.link }}" target="_blank" class="arrow-link">
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

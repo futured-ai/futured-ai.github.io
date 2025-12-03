@@ -19,7 +19,9 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-429HR145SE"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-429HR145SE');
@@ -35,7 +37,7 @@
     {% endif %}
 
     <!-- Content -->
-    <div class="container-fluid mt-5" role="main">
+    <div class="main-content container-fluid mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">

@@ -4,13 +4,15 @@
   {% endif %}
   <div class="badge-row">
     {% if include.location %}
-      {% include badge.liquid
+      {%
+        include badge.liquid
         img="pin"
         text="Computer Science Department, UoC"
       %}
     {% endif %}
     {% if include.when %}
-      {% include badge.liquid
+      {%
+        include badge.liquid
         img="calendar"
         text="2-3 October 2025"
       %}
@@ -18,7 +20,9 @@
   </div>
   <p class="tag">{{ include.tag }}</p>
   <p>{{ include.text }}</p>
-  <div class="page-buttons">
-    <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a>
-  </div>
+  <!--
+    <div class="page-buttons">
+      <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a>
+    </div>
+  -->
 </div>

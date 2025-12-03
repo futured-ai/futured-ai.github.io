@@ -1,0 +1,25 @@
+<div class="quick-metrics-card card">
+  <h1 class="pffbold title">{{ include.title }}</h1>
+  <div class="metrics-grid">
+    {% for metric in include.metrics %}
+      <div class="metric-item">
+        <div class="icon-container">
+          {% if metric.number contains '.svg' %}
+            <img src="{{ metric.number }}" alt="Icon">
+          {% else %}
+            <p class="pffbold number">{{ metric.number }}</p>
+          {% endif %}
+          <img src="{{ metric.icon }}" alt="{{ metric['primary-title'] }}">
+        </div>
+        <div class="title-container">
+          <h5 class="pffbold primary-title">
+            {{ metric['primary-title'] }}
+          </h5>
+          {% if metric['secondary-title'] %}
+            <p class="secondary-title">{{ metric['secondary-title'] }}</p>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

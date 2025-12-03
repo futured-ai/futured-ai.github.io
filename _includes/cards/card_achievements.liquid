@@ -1,0 +1,10 @@
+<div class="achievements-card card">
+  <h1 class="pffbold">{{ include.title }}</h1>
+  <div class="achievements-grid">
+    {% for achievement in include.achievements %}
+      <div class="achievement-badge">
+        <h5 class="pffbold achievement-item-title">{{ achievement.title }}</h5>
+      </div>
+    {% endfor %}
+  </div>
+</div>

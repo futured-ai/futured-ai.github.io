@@ -1,0 +1,54 @@
+<div class="winners-card card">
+  <h1 class="pffbold title">{{ include.title }}</h1>
+  <div class="winners-container">
+    {% assign first = null %}
+    {% assign second = null %}
+    {% assign third = null %}
+
+    {% for winner in include.winners %}
+      {% if winner.position == '#1' %}
+        {% assign first = winner %}
+      {% elsif winner.position == '#2' %}
+        {% assign second = winner %}
+      {% elsif winner.position == '#3' %}
+        {% assign third = winner %}
+      {% endif %}
+    {% endfor %}
+
+    {% if second %}
+      <div class="winner-item second-place">
+        <h2 class="pffbold position">{{ second.position }}</h2>
+        <h3 class="pffbold price">{{ second.price }}</h3>
+        <div class="image-container">
+          <img src="{{ second.image | relative_url }}" alt="{{ second.name }}" class="winner-image">
+        </div>
+        <h4 class="pffbold name">{{ second.name }}</h4>
+        <p class="description">{{ second.description }}</p>
+      </div>
+    {% endif %}
+
+    {% if first %}
+      <div class="winner-item first-place">
+        <h2 class="pffbold position">{{ first.position }}</h2>
+        <h3 class="pffbold price">{{ first.price }}</h3>
+        <div class="image-container">
+          <img src="{{ first.image | relative_url }}" alt="{{ first.name }}" class="winner-image">
+        </div>
+        <h4 class="pffbold name">{{ first.name }}</h4>
+        <p class="description">{{ first.description }}</p>
+      </div>
+    {% endif %}
+
+    {% if third %}
+      <div class="winner-item third-place">
+        <h2 class="pffbold position">{{ third.position }}</h2>
+        <h3 class="pffbold price">{{ third.price }}</h3>
+        <div class="image-container">
+          <img src="{{ third.image | relative_url }}" alt="{{ third.name }}" class="winner-image">
+        </div>
+        <h4 class="pffbold name">{{ third.name }}</h4>
+        <p class="description">{{ third.description }}</p>
+      </div>
+    {% endif %}
+  </div>
+</div>

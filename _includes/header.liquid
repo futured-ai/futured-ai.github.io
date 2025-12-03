@@ -27,7 +27,7 @@
       </button>
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
+        <ul class="navbar-nav flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
@@ -103,9 +103,11 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <li class="nav-item page-buttons">
-            <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a>
-          </li>
+          <!--
+            <li class="nav-item page-buttons">
+              <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a>
+            </li>
+          -->
         </ul>
       </div>
     </div>

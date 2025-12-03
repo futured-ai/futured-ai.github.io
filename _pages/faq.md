@@ -5,10 +5,11 @@ permalink: /faq/
 nav: true
 nav_order: 3
 ---
+
 <div class="container card">
   <h1>FAQ</h1>
 
-  {% assign faqs = site.faq_cards | sort: "order" %}
+{% assign faqs = site.faq_cards | sort: "order" %}
 
   <div class="faq-list">
     {% for faq in faqs %}
@@ -19,7 +20,7 @@ nav_order: 3
     {% endfor %}
   </div>
   <div class="page-buttons">
-      <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a>
-      <a href="https://forms.gle/hJ5BtdgpaFLxFvap6" class="btn secondary">Contact Us</a>
+      <!-- <a href="https://forms.gle/3fAafWCyVxya5jf6A" class="btn primary">Apply&nbsp;here</a> -->
+      <a href="https://forms.gle/hJ5BtdgpaFLxFvap6" class="btn primary">Contact Us</a>
   </div>
 </div>
