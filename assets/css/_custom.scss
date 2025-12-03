@@ -826,6 +826,10 @@ body {
   align-items: center;
   gap: 16px;
   margin: 2rem 0;
+
+  @media (max-width: 657px) {
+    flex-direction: column;
+  }
 }
 
 .footer-links {
