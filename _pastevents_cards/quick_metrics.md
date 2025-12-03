@@ -11,7 +11,7 @@ metrics:
     icon: /assets/img/icons/handshake-agreement.svg
     primary-title: Accepted teams
     secondary-title: (50 people)
-  - number: "28"
+  - number: "27+"
     icon: /assets/img/icons/code-monitor.svg
     primary-title: Hours of hacking
   - number: "3"
