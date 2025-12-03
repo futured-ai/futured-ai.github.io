@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/catalysts/";
           },
+        },{id: "nav-past-events",
+          title: "Past Events",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/pastevents/";
+          },
         },{id: "agenda_cards-futured-ai",
           title: 'FuturEd AI',
           description: "",
@@ -175,6 +182,46 @@ ninja.data = [{
           description: "",
           section: "Home_cards",handler: () => {
               window.location.href = "/home_cards/why_apply/";
+            },},{id: "pastevents_cards-achievements",
+          title: 'Achievements',
+          description: "",
+          section: "Pastevents_cards",handler: () => {
+              window.location.href = "/pastevents_cards/achievements/";
+            },},{id: "pastevents_cards-photo-gallery",
+          title: 'Photo gallery',
+          description: "",
+          section: "Pastevents_cards",handler: () => {
+              window.location.href = "/pastevents_cards/gallery/";
+            },},{id: "pastevents_cards-press-mentions",
+          title: 'Press mentions',
+          description: "",
+          section: "Pastevents_cards",handler: () => {
+              window.location.href = "/pastevents_cards/press_mentions/";
+            },},{id: "pastevents_cards-quick-metrics",
+          title: 'Quick metrics',
+          description: "",
+          section: "Pastevents_cards",handler: () => {
+              window.location.href = "/pastevents_cards/quick_metrics/";
+            },},{id: "pastevents_cards-teams-participated",
+          title: 'Teams participated',
+          description: "Team’s presentation",
+          section: "Pastevents_cards",handler: () => {
+              window.location.href = "/pastevents_cards/teams/";
+            },},{id: "pastevents_cards-testimonials",
+          title: 'Testimonials',
+          description: "A happy participant",
+          section: "Pastevents_cards",handler: () => {
+              window.location.href = "/pastevents_cards/testimonials/";
+            },},{id: "pastevents_cards-futured-ai-hackathon-2025-2-3-oct",
+          title: 'FuturEd AI Hackathon 2025, 2-3 Oct',
+          description: "",
+          section: "Pastevents_cards",handler: () => {
+              window.location.href = "/pastevents_cards/video/";
+            },},{id: "pastevents_cards-winners",
+          title: 'Winners',
+          description: "",
+          section: "Pastevents_cards",handler: () => {
+              window.location.href = "/pastevents_cards/winners/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
