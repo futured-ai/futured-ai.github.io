@@ -9,9 +9,11 @@
             {{ include.description }}
           </a>
         </div>
-        <a href="{{ team.presentation | relative_url }}" target="_blank" class="arrow-link">
-          <span class="arrow">→</span>
-        </a>
+        {% if team.presentation %}
+          <a href="{{ team.presentation | relative_url }}" target="_blank" class="arrow-link">
+            <span class="arrow">→</span>
+          </a>
+        {% endif %}
       </div>
     {% endfor %}
   </div>
