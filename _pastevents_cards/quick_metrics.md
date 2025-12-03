@@ -19,5 +19,5 @@ metrics:
     primary-title: Prizes of 3000€, 2000€ and 1000€
   - number: /assets/img/icons/infinity.svg
     icon: /assets/img/icons/meals.svg
-    primary-title: A lot of food and coffee
+    primary-title: Lots of food and coffee
 ---
