@@ -4,24 +4,30 @@ description: Team’s presentation
 type: teams
 order: 6
 teams:
-  - name: "AiLiens #1"
+  - name: "AiLiens"
     presentation: /assets/documents/AiLiens.pdf
-  - name: "AIvengers #2"
+  - name: "AIvengers"
     presentation: /assets/documents/AIvengers.pdf
-  - name: "Noûs #3"
+  - name: "Alagents"
     presentation: /assets/documents/Nous.pdf
-  - name: "DSAF #4"
+  - name: "DRBC Systems"
+  - name: "dsaf"
     presentation: /assets/documents/DSAF.pdf
-  - name: "FZones #5"
+  - name: "FZones"
     presentation: /assets/documents/FZones.pdf
-  - name: "Gabbaghouls #6"
+  - name: "gabbaghouls"
     presentation: /assets/documents/Gabbaghouls.pdf
-  - name: "KTG.AI #7"
+  - name: "GUTs - Generative Untrained Transformers"
+  - name: "KALIkatzaroi"
+  - name: "KTG.AI"
     presentation: /assets/documents/KTG.AI.pdf
-  - name: "MentorMind #8"
+  - name: "MentorMind"
     presentation: /assets/documents/MentorMind.pdf
-  - name: "SolidMind #9"
+  - name: "SolidMind"
     presentation: /assets/documents/SolidMind.pdf
-  - name: "Studyo #10"
+  - name: "Studyo"
     presentation: /assets/documents/Studyo.pdf
+  - name: "sudo make team"
+  - name: "Thunderhacks"
+  - name: "Young Ninos"
 ---
