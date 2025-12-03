@@ -246,14 +246,21 @@ ul.task-list input[type="checkbox"] {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;
-  border: 1px solid white;
-  border-radius: 50px;
-  max-width: fit-content;
-  margin: 20px auto;
+  justify-content: center;
+  padding: 10px 16px;
+  width: 100%;
+  position: fixed;
+  top: 4px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   font-family: "PFFMedium", sans-serif;
-  color: white;
+
+  .container,
+  .navbar-collapse {
+    justify-content: center;
+  }
 }
 
 .navbar .dropdown-menu {
@@ -950,7 +957,7 @@ progress {
 
   /* Dimensions */
   width: 100%;
-  height: 3px;
+  height: 4px;
 
   /* Reset the appearance */
   -webkit-appearance: none;
