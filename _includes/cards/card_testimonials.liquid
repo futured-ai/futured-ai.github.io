@@ -1,0 +1,62 @@
+<div class="testimonials-card card">
+  <h1 class="pffbold">{{ include.title }}</h1>
+
+  <div class="carousel-wrapper">
+    <!-- Calculate stops: Total items -->
+    {% assign num_items = include.testimonials.size %}
+    {% assign num_stops = num_items %}
+
+    {% for i in (1..num_stops) %}
+      <input
+        class="radio-input"
+        type="radio"
+        name="t_slider_{{ include.title | slugify }}"
+        id="t-{{ forloop.index }}-{{ include.title | slugify }}"
+        {% if forloop.first %}
+          checked
+        {% endif %}
+        hidden
+      >
+    {% endfor %}
+
+    <div class="arrows-container">
+      {% for i in (1..num_stops) %}
+        <div class="nav-set nav-{{ forloop.index }}">
+          <!-- Previous Arrow -->
+          {% if forloop.first %}
+            <span class="arrow prev disabled">
+              <img class="chevron-icon" src="{{ '/assets/img/icons/chevron-left.svg' | relative_url }}" alt="Previous">
+            </span>
+          {% else %}
+            <label for="t-{{ forloop.index | minus: 1 }}-{{ include.title | slugify }}" class="arrow prev">
+              <img class="chevron-icon" src="{{ '/assets/img/icons/chevron-left.svg' | relative_url }}" alt="Previous">
+            </label>
+          {% endif %}
+
+          <!-- Next Arrow -->
+          {% if forloop.last %}
+            <span class="arrow next disabled">
+              <img class="chevron-icon" src="{{ '/assets/img/icons/chevron-right.svg' | relative_url }}" alt="Next">
+            </span>
+          {% else %}
+            <label for="t-{{ forloop.index | plus: 1 }}-{{ include.title | slugify }}" class="arrow next">
+              <img class="chevron-icon" src="{{ '/assets/img/icons/chevron-right.svg' | relative_url }}" alt="Next">
+            </label>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Track -->
+    <div class="track-container">
+      <div class="track">
+        {% for item in include.testimonials %}
+          <div class="testimonial-item">
+            <h3 class="pffbold participant-title">{{ include.description }}</h3>
+            <p class="pffbook feedback">“{{ item.feedback }}”</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

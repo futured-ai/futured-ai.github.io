@@ -1,0 +1,10 @@
+<div class="photo-gallery-card card">
+  <h1 class="pffbold title">{{ include.title }}</h1>
+  <div class="gallery-grid">
+    {% for photo in include.photos %}
+      <div class="gallery-item">
+        <img src="{{ photo.image | relative_url }}" alt="Event Photo" class="image">
+      </div>
+    {% endfor %}
+  </div>
+</div>
