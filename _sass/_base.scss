@@ -411,6 +411,14 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.main-content {
+  margin-top: 8rem !important;
+
+  @media (max-width: 576px) {
+    margin-top: 2.5rem !important;
+  }
+}
+
 // Social (bottom)
 
 .social {
