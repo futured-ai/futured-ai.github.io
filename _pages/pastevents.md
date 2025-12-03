@@ -44,7 +44,7 @@ nav_order: 6
       {% when "press_mentions" %}
         {% include cards/card_press_mentions.liquid
             title=card.title
-            mentions=card.mentions %}                    
+            mentions=card.mentions %}
       {% else %}
         <div class="card">Unknown card type: {{ card.type }}</div>
     {% endcase %}

@@ -5,11 +5,11 @@
       <div class="metric-item">
         <div class="icon-container">
           {% if metric.number contains '.svg' %}
-            <img src="{{ metric.number }}">
+            <img src="{{ metric.number }}" alt="Icon">
           {% else %}
             <p class="pffbold number">{{ metric.number }}</p>
           {% endif %}
-          <img src="{{ metric.icon }}">
+          <img src="{{ metric.icon }}" alt="{{ metric['primary-title'] }}">
         </div>
         <div class="title-container">
           <h5 class="pffbold primary-title">

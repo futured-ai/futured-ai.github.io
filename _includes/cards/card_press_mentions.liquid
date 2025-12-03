@@ -6,7 +6,7 @@
         <h3 class="pffbold mention-name">{{ mention.name }}</h3>
         <p class="pffbook mention-description">{{ mention.description }}</p>
         <div class="mention-footer">
-          <a href="{{ mention.link }}" target="_blank" class="see-more-link pffbold"> See more </a>
+          <a href="{{ mention.link | relative_url }}" target="_blank" class="see-more-link pffbold"> See more </a>
           <a href="{{ mention.link | relative_url }}" target="_blank" class="arrow-link">
             <span class="arrow">→</span>
           </a>
