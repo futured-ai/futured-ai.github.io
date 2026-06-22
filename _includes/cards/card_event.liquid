@@ -4,18 +4,10 @@
   {% endif %}
   <div class="badge-row">
     {% if include.location %}
-      {%
-        include badge.liquid
-        img="pin"
-        text="Computer Science Department, UoC"
-      %}
+      {% include badge.liquid img="pin" text="Computer Science Department, UoC" %}
     {% endif %}
     {% if include.when %}
-      {%
-        include badge.liquid
-        img="calendar"
-        text="{{ include.when }}"
-      %}
+      {% include badge.liquid img="calendar" text=include.when %}
     {% endif %}
   </div>
   <p class="tag">{{ include.tag }}</p>
