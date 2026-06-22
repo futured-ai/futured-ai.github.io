@@ -2,40 +2,6 @@
 title: Judges
 type: catalysts
 order: 2
-people:
-  - name: Yannis Tzitzikas
-    title: Professor of Information Systems
-    image: /assets/img/images/tzitzikas.png
-    bio: >
-      Yannis Tzitzikas is Professor of Information Systems in the Computer Science Department at University of Crete (Greece) and Affiliated Researcher of the Information Systems Laboratory at FORTH-ICS (Greece). He studied at the University of Crete and he conducted post-doctoral research at (a) the University of Namur (Belgium), (b) ISTI-CNR (Pisa, Italy) and (c) VTT Technical Research Centre of Finland. His expertise lies in Information Systems, specifically in Knowledge Management and Information Retrieval. His research focuses on semantic data integration, exploratory search, and digital preservation. He has coauthored 3 books and more than 180 papers in refereed journals and conferences (including ACM Computing Surveys, ACM Transactions on the Web, VLDB Journal, ACM Transactions on Information Systems, IEEE Transactions on Knowledge and Data Engineering, JIIS, JDAPD, ECIR, ISWC, EWSC), he has received four best paper awards (at CIA'2003, ISWC'07, MTSR'20 and ISWC'22) as well as other awards). He has supervised three PhDs, 26 MSc theses and more than 50 Diploma Theses. He actively participates το EU projects (totaling more than 1,5 MEuros funding for FORTH-ICS) and participates to the scientific committees of several international conferences and journals. Since 2005 he coordinates the Semantic Access and Retrieval group, and from 2019 also the Centre for Cultural Informatics of the Information Systems Laboratory of FORTH-ICS. He is the coordinator of the Clarity and Open Data Management Team of the University of Crete and he is member of the Executive Committee ERCIM (the European Research Consortium for Informatics and Mathematics).
-  - name: Polyvios Pratikakis
-    title: Associate Professor
-    image: /assets/img/images/pratikakis.png
-    bio: >
-      Polyvios Pratikakis is an Associate Professor at the Computer Science Department of the University of Crete, and Collaborating Researcher at ICS-FORTH. His research interests include programming languages, type systems, dynamic and static analysis, parallelism and concurrency, parallel and distributed runtime systems, memory management, and data analytics.
-  - name: Asterios Leonidis
-    title: Assistant Professor
-    image: /assets/img/images/leonidis.png
-    bio: >
-      Asterios Leonidis is an Assistant Professor at the University of Crete and Affiliated Faculty at FORTH-ICS. His research lies in Human-Computer Interaction (HCI), focusing on areas such as Extended Reality (XR), Human-Centered AI, Ambient Intelligence, IoT, and smart cities. He has extensive experience in designing and evaluating interactive technologies for domains including education, accessibility, and cultural heritage, with a strong emphasis on usability, natural interaction, and the societal impact of emerging technologies.
-  - name: Xenofontas Dimitropoulos
-    title: Professor
-    image: /assets/img/images/dimitropoulos.png
-    bio: >
-      Xenofontas Dimitropoulos is a Professor in the Department of Computer Science at the University of Crete. He earned his PhD from the Georgia Institute of Technology in 2006, where his research, a collaborative effort with the Center for Internet Data Analysis (CAIDA) at the University of California San Diego (UCSD), led to the creation of the CAIDA: 1) Autonomous Systems (AS) Rank, 2) AS Relationship Dataset, and 3) AS taxonomy. These contributions have since seen widespread use in academia and industry. Following his PhD, he was a Post-Doctoral researcher at IBM Research Zurich Laboratory until 2008, after which he became a Lecturer at ETH Zurich. In 2014, he joined the University of Crete as an Assistant Professor and concurrently became an Affiliated Researcher at the Foundation for Research and Technology - Hellas (FORTH). At FORTH, he established and led the Internet Security Privacy and Intelligence Research (INSPIRE) group. Prof. Dimitropoulos's research is centered on applied Internet data analysis, with a particular focus on routing measurements. In 2021, he received a Best Paper Award from ACM SIGCOMM, the flagship inter-networking conference of ACM. He has been the Principal Investigator for three European Research Council (ERC) grants. In 2021, Prof. Dimitropoulos co-founded Code BGP with two members of his research group. This spin-off from FORTH developed an SaaS platform that provided real-time monitoring of the Border Gateway Protocol (BGP) from hundreds of global sources. Code BGP secured a pre-seed investment from Marathon VC. He served as CEO of Code BGP until its acquisition by Cisco in 2023. The BGP monitoring capabilities of Code BGP have since been integrated into Cisco ThousandEyes, and Cisco has established offices on the campus of FORTH in Heraklion, Greece. Currently, Prof. Dimitropoulos acts as a Scientific Advisor to Cisco ThousandEyes, advising on topics related to BGP monitoring.
-  - name: Dimitris Tsingos
-    title: Co-founder and President of Epignosis
-    image: /assets/img/images/tsingos.png
-    bio: >
-      Dimitris Tsingos is a Greek entrepreneur, investor and venture builder. He is Co-founder and President of Epignosis, a global eLearning leader, and Co-founder of Yodeck, a top digital signage platform. He also leads Starttech Ventures, a firm building B2B SaaS startups with a North American focus. A strong advocate of capital efficiency, lean startup methods, and founder-led growth, Dimitris holds a BSc in Computer Science and an MBA International. He co-founded Greece’s Practical AI Community, served as President of YES for Europe, and launched Together for Europe, a civic initiative for EU federal integration. He recently established a foundation for education and cooperativism. His family co-owns an organic winery in Distomo, Boeotia, reflecting his passion for ventures that blend innovation with purpose.
-  - name: Manos Dramitinos
-    title: Chief Technology & Innovation Officer
-    image: /assets/img/images/manos.png
-    bio: >
-      Manos Dramitinos is the Epignosis Chief Technology and Innovation Officer since March 2024, where previously he served as Chief Information Officer. He has worked as software engineer and academic researcher for many years since his admission to the Department of Computer Science of the University of Crete in 1994, from where he obtained his B.Sc. in 1998 and M.Sc. in 2000. He received his Ph.D. from AUEB in 2006 and postdoc from INRIA Rhone-Alpes in 2009. Manos has received multiple awards and distinctions such as the Ericsson Award of Excellence in Telecommunications in 1998, the IKY scholarship in 2000, the ICQT’06 best research paper award. He is the author of the book “Auction Theory for Telecoms” and has over 25 publications in conferences and scientific journals. Manos has architected and implemented large-scale Information Systems, Voice Web, cryptography, PVSS, e-commerce and e-auction software and intelligent agents for various companies.
-  - name: Manolis Katsifarakis
-    title: Director of AI
-    image: /assets/img/images/manolis.png
-    bio: >
-      Manolis Katsifarakis is the Director of Artificial Intelligence at Epignosis, an award-winning provider of innovative learning solutions serving over 12,000 customers and millions of users worldwide. With over 30 years of experience in coding—20 of them professionally—he has led and contributed to numerous large-scale software projects across a diverse range of industries and technologies. His expertise spans low-level systems, embedded programming, native mobile development, full-stack web apps, and beyond.
+subtitle: Our judging panel will be announced soon. Stay tuned for updates!
+people: []
 ---
