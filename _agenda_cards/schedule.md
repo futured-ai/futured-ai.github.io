@@ -2,7 +2,7 @@
 type: schedule
 order: 3
 schedule:
-  - date: Thursday, 2 October 2025
+  - date: Thursday, 1 October 2026
     items:
       - time: 10:00 - 10:30
         title: Registration and welcome
@@ -28,7 +28,7 @@ schedule:
         title: Dinner
         size: "1"
 
-  - date: Friday, 3 October 2025
+  - date: Friday, 2 October 2026
     items:
       - time: 10:00 - 10:30
         title: Breakfast
