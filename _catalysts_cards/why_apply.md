@@ -1,6 +1,6 @@
 ---
 title: Judging procedure
-subtitle: Our panel of judges will evaluate each submission based on four key pillars that determine the total score of each submission.
+subtitle: Solutions will be evaluated across four key pillars. Judges will determine winners in two award categories; the third is decided by community vote.
 type: whyapply
 order: 3
 items:

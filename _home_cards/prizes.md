@@ -2,11 +2,12 @@
 title: Prizes
 type: prizes
 order: 5
+subtitle: Three award categories, each with a €2,000 prize.
 prizes:
   - amount: 2000
-    label: 2nd place
-  - amount: 3000
-    label: 1st place
-  - amount: 1000
-    label: 3rd place
+    label: Community Vote
+  - amount: 2000
+    label: Best AI-Powered Innovation
+  - amount: 2000
+    label: Real-World Impact in Education
 ---

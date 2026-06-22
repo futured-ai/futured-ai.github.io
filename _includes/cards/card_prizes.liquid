@@ -1,30 +1,18 @@
 <div class="card prize-card">
   <h1 class="pffbold">{{ include.title }}</h1>
-
-  <div class="prize-top">
-    <div class="prize-item highlight">
-      <div class="amount">
-        {{ include.prizes[1].amount }}
-        <span class="euro">€</span>
-      </div>
-      <div class="label">{{ include.prizes[1].label }}</div>
-    </div>
-  </div>
+  {% if include.subtitle %}
+    <p class="subtitle">{{ include.subtitle }}</p>
+  {% endif %}
 
   <div class="prize-bottom">
-    <div class="prize-item">
-      <div class="amount">
-        {{ include.prizes[0].amount }}
-        <span class="euro">€</span>
+    {% for prize in include.prizes %}
+      <div class="prize-item">
+        <div class="amount">
+          {{ prize.amount }}
+          <span class="euro">€</span>
+        </div>
+        <div class="label">{{ prize.label }}</div>
       </div>
-      <div class="label">{{ include.prizes[0].label }}</div>
-    </div>
-    <div class="prize-item">
-      <div class="amount">
-        {{ include.prizes[2].amount }}
-        <span class="euro">€</span>
-      </div>
-      <div class="label">{{ include.prizes[2].label }}</div>
-    </div>
+    {% endfor %}
   </div>
 </div>
