@@ -2,7 +2,7 @@
 title: Prizes
 type: prizes
 order: 5
-subtitle: Three award categories, each with a €2,000 prize.
+subtitle: Three categories. Three winners. €2,000 up for grabs in each!
 prizes:
   - amount: 2000
     label: Best AI-Powered Innovation

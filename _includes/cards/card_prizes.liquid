@@ -4,14 +4,10 @@
     <p class="subtitle">{{ include.subtitle }}</p>
   {% endif %}
 
-  <div class="prize-bottom">
+  <div class="prize-grid">
     {% for prize in include.prizes %}
-      <div class="prize-item">
-        <div class="amount">
-          {{ prize.amount }}
-          <span class="euro">€</span>
-        </div>
-        <div class="label">{{ prize.label }}</div>
+      <div class="prize-category">
+        <h3 class="prize-category-name pffbold">{{ prize.label }}</h3>
       </div>
     {% endfor %}
   </div>

@@ -406,47 +406,46 @@ body {
 
 .prize-card .subtitle {
   max-width: 800px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 2.5rem;
   font-size: 1.1rem;
 }
 
-.prize-top {
-  margin-bottom: 2rem;
+.prize-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.prize-bottom {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem 15rem;
-  margin-bottom: 2rem;
-}
-
-.prize-item {
+.prize-category {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.5rem;
+  justify-content: center;
+  min-height: 120px;
+  padding: 1.75rem 1.25rem;
+  border: 1px solid var(--global-pink);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
 }
 
-.prize-item .amount {
-  font-size: 4rem;
-  font-family: "PFFBold", sans-serif;
+.prize-category-name {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  color: white;
 }
 
-.prize-item .label {
-  margin-top: 0.5rem;
-  font-size: 1.5rem;
-  color: var(--global-subtitle);
-}
+@media (max-width: 768px) {
+  .prize-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
 
-/* Highlight center prize */
-.prize-item.highlight .amount {
-  font-size: 6rem;
-}
-
-.prize-item .euro {
-  font-size: 4rem;
+  .prize-category {
+    min-height: auto;
+  }
 }
 
 .page-buttons {
