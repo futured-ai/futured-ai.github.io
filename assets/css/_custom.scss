@@ -164,40 +164,56 @@ body {
 
 .double-card {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 60px 0px;
-  gap: 40px;
-  flex-wrap: wrap; /* enables responsiveness */
+  padding: 40px 0;
+  gap: 48px;
+  flex-wrap: wrap;
   color: white;
-}
 
-.card-right {
-  width: 100%;
-  max-width: 500px;
-  text-align: left;
+  .card-left,
+  .card-right {
+    flex: 1 1 280px;
+    width: 100%;
+    max-width: 460px;
+    text-align: left;
+  }
 
-  .uni {
-    font-size: 30px;
+  .organizer-header--centered {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    min-height: 110px;
+    margin-bottom: 1.25rem;
+  }
+
+  .card-left {
+    .organizer-logo {
+      height: 100px;
+      width: auto;
+      max-width: 100%;
+      display: block;
+    }
   }
 
   .university-info {
     display: flex;
-    align-items: left;
+    align-items: center;
     gap: 12px;
-    justify-content: left;
-    margin-bottom: 1rem;
+    justify-content: center;
   }
 
   .university-info img {
     width: 70px;
     height: auto;
+    flex-shrink: 0;
   }
 
   .university-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* aligns text with top of logo */
+    align-items: flex-start;
   }
 
   .university-name {
@@ -206,20 +222,13 @@ body {
 
   .department-name {
     font-size: 0.95em;
-    color: --global-subtitle;
+    color: var(--global-subtitle);
   }
 }
 
-.card-left {
-  max-width: 500px;
-  text-align: left;
-
-  .university-info {
-    display: flex;
-    align-items: left;
-    gap: 12px;
-    justify-content: left;
-    margin-bottom: 1rem;
+.card-right {
+  .uni {
+    font-size: 30px;
   }
 }
 
