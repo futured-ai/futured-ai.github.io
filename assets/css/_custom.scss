@@ -181,16 +181,16 @@ body {
 
   .organizer-header--centered {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
-    min-height: 110px;
+    min-height: 88px;
     margin-bottom: 1.25rem;
   }
 
   .card-left {
     .organizer-logo {
-      height: 100px;
+      height: 72px;
       width: auto;
       max-width: 100%;
       display: block;
@@ -201,7 +201,7 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .university-info img {
