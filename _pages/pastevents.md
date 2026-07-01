@@ -50,6 +50,6 @@ nav_order: 6
     {% endcase %}
   {% endfor %}
   <div class="page-buttons">
-    <a href="https://forms.gle/hJ5BtdgpaFLxFvap6" class="btn primary">Contact Us</a>
+    <a href="https://forms.gle/Bn897ctc8XCM9NPR9" class="btn primary">Contact Us</a>
   </div>
 </section>
