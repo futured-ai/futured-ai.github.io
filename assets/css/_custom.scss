@@ -375,12 +375,26 @@ body {
 
 .feature-items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .feature-items {
+    grid-template-columns: 1fr;
+  }
 }
 
 .feature-item {
   text-align: left;
+}
+
+.feature-item img,
+.feature-item h3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .feature-item img {
@@ -620,7 +634,7 @@ body {
 .scoring-card {
   background: transparent;
   padding: 2rem;
-  max-width: 70%;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
   color: #fff;
@@ -629,8 +643,8 @@ body {
 .score-steps {
   display: flex;
   justify-content: center;
-  gap: 2.5rem 5rem;
-  flex-wrap: wrap;
+  gap: 1.5rem;
+  flex-wrap: nowrap;
   margin-bottom: 2rem;
 }
 
@@ -657,6 +671,7 @@ body {
   padding-top: 6px;
   color: #fff;
 }
+
 
 .final-score-label {
   margin-bottom: 0.3rem;

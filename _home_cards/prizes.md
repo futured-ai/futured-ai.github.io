@@ -5,9 +5,9 @@ order: 5
 subtitle: Three categories. Three winners. €2,000 up for grabs in each!
 prizes:
   - amount: 2000
-    label: Best AI-Powered Innovation
+    label: AI Innovation Award
   - amount: 2000
-    label: Real-World Impact in Education
+    label: Real World Impact Award
   - amount: 2000
-    label: Community Vote
+    label: Community Prize
 ---
